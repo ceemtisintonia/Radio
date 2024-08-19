@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #28e2cc;
+}
+
+header {
+    background-color: #332e72;
+    color: #28e2cc;
+    text-align: center;
+    padding: 2%;
+}
+
+footer {
+    background-color: #332e72;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 6%;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
+
+.Direções {
+    width: 70%;
+    height: 7.9%;
+    position: absolute;
+    left: 25%;
+    top: 0.01%;
+}
+
+a {
+    color: #fff;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #332e72;
+}
+
+.Programação {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+}
+
+.Programação:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+.Sobre {
+    display: inline-block;
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+    left: 15%;
+}
+
+.Sobre:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+.Podcasts {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+    left: 30%;
+}
+
+.Podcasts:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+.Peça {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+    left: 45%;
+}
+
+.Peça:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+#carouselExampleCaptions {
+    width: 40%;
+    height: 200px;
+    margin: auto;
+}
