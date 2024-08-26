@@ -55,6 +55,7 @@ a {
 
 a:hover {
     color: #332e72;
+    text-decoration: none;
 }
 
 .Programação {
@@ -118,7 +119,12 @@ a:hover {
 }
 
 #carouselExampleCaptions {
-    width: 40%;
+    width: 30% !important;
     height: 200px;
+    margin: auto;
+}
+
+.custom-carousel {
+    width: 75%;
     margin: auto;
 }
